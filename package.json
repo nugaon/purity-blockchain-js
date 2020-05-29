@@ -1,0 +1,27 @@
+{
+  "name": "purity-blockchain-js",
+  "version": "0.0.1",
+  "description": "JavaScript connector to communicate with Purity's Solidity contracts",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Please test this library's functionalities under the 'purity-contracts' repository\" && exit 1"
+  },
+  "keywords": [
+    "decentralised-web",
+    "web3",
+    "web3.0",
+    "purity",
+    "typescript",
+    "solidity"
+  ],
+  "author": "Viktor Levente Tóth",
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "purity-identity": "^0.1.2",
+    "web3": "^1.2.8"
+  }
+}
